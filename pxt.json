@@ -1,0 +1,27 @@
+{
+    "name": "new microbit tiny car",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "Tinybit": "github:YahboomTechnology/Tiny-bitLib#v2.0.3",
+        "Tinybit_IR": "github:YahboomTechnology/Tinybit_IR#53a257c4eeeb54b0da5dbd5744e4d376d115f337"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.25",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
